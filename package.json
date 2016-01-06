@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Nefit Easy™ HTTP server",
   "bin": {
-    "easy": "./bin/easy-server"
+    "easy-server": "./bin/easy-server"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
