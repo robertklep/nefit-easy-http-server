@@ -1,0 +1,22 @@
+
+easy-server – Nefit Easy™ HTTP-server
+
+Usage:
+  easy-server [options]
+
+Options:
+  -h --help                   Show this screen
+  -v --version                Show version
+  -V --verbose                Be more verbose
+  -s --serial=SERIAL          Nefit Easy™ serial number
+  -a --access-key=ACCESS_KEY  Nefit Easy™ access key
+  -p --password=PASSWORD      Nefit Easy™ password
+  -P --port=PORT              Port to listen on [default: 3000]
+  -H --host=HOST              Host to bind to [default: 127.0.0.1]
+
+Instead of specifying serial number, access key or password through
+options, you can also define them through environment variables:
+
+  NEFIT_SERIAL_NUMBER
+  NEFIT_ACCESS_KEY
+  NEFIT_PASSWORD
