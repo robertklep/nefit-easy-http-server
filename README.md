@@ -5,7 +5,7 @@ HTTP server to access Nefit/Bosch XMPP backend over HTTP.
 ## Installation
 
 ```
-$ npm i robertklep/nefit-easy-server -g
+$ npm i nefit-easy-http-server -g
 ```
 
 This will install the `easy-server` CLI tool in a well-known "bin/" directory (`npm
