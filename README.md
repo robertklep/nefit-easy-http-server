@@ -8,8 +8,7 @@ HTTP server to access Nefit/Bosch XMPP backend over HTTP.
 $ npm i nefit-easy-http-server -g
 ```
 
-This will install the `easy-server` CLI tool in a well-known "bin/" directory (`npm
-config get prefix` will show you where)
+This will install the `easy-server` CLI tool in a well-known "bin/" directory (`npm config get prefix` will show you where).
 
 ## Usage
 
@@ -31,7 +30,7 @@ The server isn't meant to be opened in a browser. Its intended use is to be call
 
 The HTTP server provides two actions:
 
-* retrieving an [endpoint](https://github.com/robertklep/nefit-easy-client/wiki/List-of-endpoints);
+* retrieving an [endpoint](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints);
 * writing data to an endpoint;
 
 To retrieve an endpoint (for example, `/ecus/rrc/uiStatus`):
