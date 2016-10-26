@@ -26,11 +26,20 @@ By default, the server will be accessible through `http://127.0.0.1:3000/`
 
 Configuration is done through command line options. See _Options_ below.
 
+### Endpoints
+
+The server exposes two endpoint prefixes:
+
+* `/bridge/`, which serves as a raw HTTP-to-XMPP bridge (see _"Examples"_);
+* `/api/`, which implements higher-level commands (provided by [`nefit-easy-commands`](https://github.com/robertklep/nefit-easy-commands));
+
 ### Examples
 
 The server isn't meant to be opened in a browser. Its intended use is to be called using tools like `curl` or `httpie`, or from other programs/scripts, through HTTP calls. The following examples will use `curl`.
 
-The HTTP server provides two actions:
+#### HTTP-to-XMPP bridge
+
+The HTTP-to-XMPP bridge provides two actions:
 
 * retrieving an [endpoint](https://github.com/robertklep/nefit-easy-core/wiki/List-of-endpoints);
 * writing data to an endpoint;
@@ -46,6 +55,18 @@ $ curl -XPOST http://127.0.0.1:3000/bridge/heatingCircuits/hc1/temperatureRoomMa
 ```
 
 For `POST` requests, the data should be a [valid JSON string](http://jsonlint.com/). There is no input validation.
+
+#### Commands API
+
+For now, the commands API only supports "get" commands:
+```
+$ curl http://127.0.0.1:3000/api/status
+$ curl http://127.0.0.1:3000/api/pressure
+$ curl http://127.0.0.1:3000/api/hotWaterSupply
+$ curl http://127.0.0.1:3000/api/location
+$ curl http://127.0.0.1:3000/api/program
+$ curl http://127.0.0.1:3000/api/userMode
+```
 
 ## Options
 
