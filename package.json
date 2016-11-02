@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-http-server",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Nefit Easy™ HTTP server",
   "bin": {
     "easy-server": "./bin/easy-server"
