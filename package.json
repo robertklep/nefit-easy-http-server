@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-http-server",
-  "version": "3.1.2",
+  "version": "4.0.0",
   "description": "Nefit Easy™ HTTP server",
   "bin": {
     "easy-server": "./bin/easy-server"
@@ -20,11 +20,11 @@
   "homepage": "https://github.com/robertklep/nefit-easy-http-server#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
-    "body-parser": "^1.15.2",
-    "cors": "^2.8.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
     "docopt": "^0.6.2",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0",
-    "nefit-easy-commands": "^1.8.2"
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nefit-easy-commands": "^2.0.0"
   }
 }
