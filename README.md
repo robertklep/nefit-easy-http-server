@@ -4,7 +4,7 @@ HTTP server to access Nefit/Bosch XMPP backend over HTTP.
 
 ## Installation
 
-_This library requires Node.js 4.0.0 or later!_
+_This library requires Node.js 6.0.0 or later!_
 
 ```
 $ npm i nefit-easy-http-server -g

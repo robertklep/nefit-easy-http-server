@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-http-server",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Nefit Easy™ HTTP server",
   "bin": {
     "easy-server": "./bin/easy-server"
@@ -16,6 +16,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/robertklep/nefit-easy-http-server/issues"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "homepage": "https://github.com/robertklep/nefit-easy-http-server#readme",
   "dependencies": {
