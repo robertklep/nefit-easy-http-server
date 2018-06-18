@@ -28,6 +28,7 @@
     "docopt": "^0.6.2",
     "express": "^4.16.3",
     "morgan": "^1.9.0",
-    "nefit-easy-commands": "^2.0.0"
+    "nefit-easy-commands": "^2.0.0",
+    "nefit-easy-core": "github:robertklep/nefit-easy-core"
   }
 }
