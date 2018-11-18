@@ -12,6 +12,10 @@ $ npm i nefit-easy-http-server -g
 
 This will install the `easy-server` CLI tool in a well-known "bin/" directory (`npm config get prefix` will show you where).
 
+## Docker
+
+@balk77 has created a Docker image to easily install and run the HTTP server. More information [here](https://hub.docker.com/r/balk77/nefit-easy-http-server/).
+
 ## Usage
 
 ### Starting
