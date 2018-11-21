@@ -16,6 +16,8 @@ This will install the `easy-server` CLI tool in a well-known "bin/" directory (`
 
 @balk77 has created a Docker image to easily install and run the HTTP server. More information [here](https://hub.docker.com/r/balk77/nefit-easy-http-server/).
 
+If you want to build your own Docker image, there's a `Dockerfile` included in this repository.
+
 ## Usage
 
 ### Starting
