@@ -100,8 +100,8 @@ Options:
   -h --help                Show this screen
   -v --version             Show version
   -V --verbose             Be more verbose
-  --serial=SERIAL          Nefit Easy™ serial number
-  --access-key=ACCESS_KEY  Nefit Easy™ access key
+  --serial=SERIAL          Nefit Easy™ serial number (without whitespace or hyphens)
+  --access-key=ACCESS_KEY  Nefit Easy™ access key (without whitespace or hyphens)
   --password=PASSWORD      Nefit Easy™ password
   --port=PORT              Port to listen on [default: 3000]
   --host=HOST              Host to bind to [default: 127.0.0.1]
